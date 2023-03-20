@@ -10,7 +10,6 @@ OPENCV=1 \
 NVCC=PATH（PATH为设备上nvcc的位置，一般在usr/local/cuda-x/bin/nvcc） \
 保存退出后 输入make开始编译 \
 编译完成后输入./darknet测试 若出现usage: ./darknet <function>则安装成功 \
-在链接：https://pan.baidu.com/s/197-C-Qa81t4In_kS4pXtQw 提取码：3890 下载我的项目并解压 \
 将start.sh中的exprot的路径分别改为darknet所在路径和该目录所在路径 \
 在 https://pjreddie.com/media/files/darknet53.conv.74 下载 darknet53.conv.74模型到darknet安装目录中 \
 在终端中输入./datainit.py 运行脚本。 \
