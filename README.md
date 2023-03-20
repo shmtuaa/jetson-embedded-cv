@@ -61,3 +61,22 @@ pycocotools>=2.0  # COCO mAP
 roboflow
 
 thop  # FLOPs computation
+
+
+
+准备好jetson nano 4GB 或相同以上配置
+打开终端输入git clone https://github.com/pjreddie/darknet.git
+cd darknet
+输入vi Makefile编辑编译文件GPU=1
+CUDNN=1
+OPENCV=1
+NVCC=PATH（PATH为设备上nvcc的位置，一般在usr/local/cuda-x/bin/nvcc）
+保存退出后 输入make开始编译
+编译完成后输入./darknet测试 若出现usage: ./darknet <function>则安装成功
+在链接：https://pan.baidu.com/s/197-C-Qa81t4In_kS4pXtQw 提取码：3890 下载我的项目并解压
+将start.sh中的exprot的路径分别改为darknet所在路径和该目录所在路径
+在 https://pjreddie.com/media/files/darknet53.conv.74 下载 darknet53.conv.74模型到darknet安装目录中
+在终端中输入./datainit.py 运行脚本。
+终端中输入./start.sh即可运行人脸口罩识别系统
+若遇到camera类错误请修改start.sh文件中 -c 1 改为-c 0 该程序目前仅支持usb摄像头
+
