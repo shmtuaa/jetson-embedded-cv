@@ -64,7 +64,7 @@ thop  # FLOPs computation
 
 
 
-准备好jetson nano 4GB 或相同以上配置
+准备好jetson nano 4GB 或相同以上配置\
 打开终端输入git clone https://github.com/pjreddie/darknet.git
 cd darknet
 输入vi Makefile编辑编译文件GPU=1
