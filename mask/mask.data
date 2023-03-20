@@ -1,0 +1,6 @@
+## You can get your /home/nvidia/0_gpusCode/maskDetection_jetson by `pwd` command on terminal
+classes= 3
+train = /home/chranos/Desktop/mask/train.txt
+valid = /home/chranos/Desktop/mask/test.txt
+backup= /home/chranos/Desktop/mask/backup
+names = /home/chranos/Desktop/mask/mask.names
