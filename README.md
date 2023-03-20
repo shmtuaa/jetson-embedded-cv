@@ -4,8 +4,7 @@ jetson大创存盘
 准备好jetson nano 4GB 或相同以上配置\
 打开终端输入git clone https://github.com/pjreddie/darknet.git \
 cd darknet \
-输入vi Makefile编辑编译文件GPU=1 ,CUDNN=1 ,OPENCV=1 \ 
-NVCC=PATH（PATH为设备上nvcc的位置，一般在usr/local/cuda-x/bin/nvcc） \
+输入vi Makefile编辑编译文件GPU=1 ,CUDNN=1 ,OPENCV=1 , NVCC=PATH（PATH为设备上nvcc的位置，一般在usr/local/cuda-x/bin/nvcc） \
 保存退出后 输入make开始编译 \
 编译完成后输入./darknet测试 若出现usage: ./darknet <function>则安装成功 \
 将start.sh中的exprot的路径分别改为darknet所在路径和该目录所在路径 \
