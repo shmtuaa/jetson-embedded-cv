@@ -1,6 +1,15 @@
 # Jetson
 jetson大创存盘
 
+G20210604 基于Jetson的自主口罩检查机器人
+
+成员：李梁裕 邓明 王啸凡 朱嘉俊 王周怡
+
+指导老师：董一琳
+
+
+## 运行
+
 准备好jetson nano 4GB 或相同以上配置\
 打开终端输入git clone https://github.com/pjreddie/darknet.git \
 cd darknet \
